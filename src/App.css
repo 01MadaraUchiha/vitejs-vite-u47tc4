@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for the Calendar */
+.react-calendar {
+  background-color: white;
+  border: none;
+  font-family: 'Arial', sans-serif;
+  color: black;
+}
+
+.react-calendar__navigation button {
+  color: black;
+  font-weight: bold;
+  background: none;
+  border: none;
+  border-radius: 8px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.react-calendar__navigation button:hover,
+.react-calendar__navigation button:focus {
+  background-color: #f0f0f0;
+}
+
+.react-calendar__month-view__days__day {
+  border-radius: 8px;
+  color: black;
+  font-family: 'Arial', sans-serif;
+  padding: 10px;
+}
+
+.react-calendar__tile {
+  border-radius: 8px;
+}
+
+.react-calendar__tile--active {
+  background-color: black;
+  color: white;
+}
+
+.react-calendar__tile--now {
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.react-calendar__tile--hover {
+  background-color: #f0f0f0;
+}
